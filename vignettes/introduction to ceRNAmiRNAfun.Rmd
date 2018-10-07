@@ -13,7 +13,7 @@ vignette: >
 
 
 
-This document guides the user through all available functions of the ceRNAmiRNAfun package. ceRNAmiRNAfun aims to find out miRNA and ceRNA triplets based on both miRNA and gene expression data.
+This document guides the user through all available functions of the `ceRNAmiRNAfun` package. `ceRNAmiRNAfun` aims to find out miRNA and ceRNA triplets based on both miRNA and gene expression data.
 Recent studies have shown that among the target genes of miRNAs, several algorithms have been developed to identify ceRNAs and their dynamic regulating systems. Most of the algorithms divide a miRNA into different groups based on its expression level and them perform the analysis accordingly. However, the expression level of a miRNA is actually a continuous variable instead of a discrete variable. To address this issue, we developed a new algorithm based on the circular binary algorithm. We got the correlation with each window, and the applied the circular binary algorithm to get the peaks from the miRNA expression level across samples.
 
 
@@ -91,7 +91,7 @@ Now, we show an example using internal data for ceRNAmiRNAfun workflow.
 ```
 
 ##Example Data Source
-To demonstrate the usage of the ceRNAmiRNAfun package, the package contains 475 paired miRNA and gene lung cancer samples. As for dictionary data, there are 137 paired miRNA and corresponding gene data in a list form, and miRNA_total data has the first column of the dictionary data of the miRNA¡¦s names.
+To demonstrate the usage of the ceRNAmiRNAfun package, the package contains 475 paired miRNA and gene lung cancer samples. As for dictionary data, there are 137 paired miRNA and corresponding gene data in a list form, and miRNA_total data has the first column of the dictionary data of the miRNAÂ¡Â¦s names.
 Both of the miRNA and gene data comes from the TCGA lung adenocarcinoma dataset.
 
 ```{r}
