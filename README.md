@@ -135,4 +135,4 @@ plotp=miRhubgeneplot(dictionary=dictionary,Result_TCGA_LUSC=Result_TCGA_LUSC,mir
 ```
 The function will plot the top miRNA, for visualizing the result of the triplets. The output will be plotp a plot format with miRNA expression in x-axis and the interaction ceRNA in y-axis.
 
-
+![plotp](https://github.com/JohnMengChun/ceRNAmiRNAfun/blob/master/vignettes/pics/plotp.png)
