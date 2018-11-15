@@ -50,7 +50,7 @@ Basically, there are four steps, corresponding to four R functions, to complete 
 ###	- 3.MiRhubgene to sort the data and then give the output table of miRNA and ceRNA triplets.
 ###	- 4.MiRhubgeneplot to plot the top miRNA.
 
-![workflow_ceRNAmiRNAfun](C:/Users/Blue/Documents/ceRNAmiRNAfun/vignettes/pics/workflow_ceRNAmiRNAfun.png)
+![workflow_ceRNAmiRNAfun](https://github.com/JohnMengChun/ceRNAmiRNAfun/blob/master/vignettes/pics/workflow_ceRNAmiRNAfun.png)
 
 
 
@@ -84,20 +84,20 @@ The first column of miRNA names, the second column of list form of candidate gen
 
 
 ```{r,echo=TRUE,eval=FALSE}
-pairinformation¡@¡@miRNA¡@¡@genelist  
-Row1¡@¡@¡@¡@¡@¡@¡@¡@¡@A      ¡@geneA1,geneA2¡K
-Row2¡@¡@¡@¡@¡@¡@¡@¡@¡@B      ¡@geneB1,geneB2¡K       
-Row3¡@¡@¡@¡@¡@¡@¡@¡@¡@C      ¡@geneC1,geneC2    
+pairinformationã€€ã€€miRNAã€€ã€€genelist  
+Row1ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€A      ã€€geneA1,geneA2â€¦
+Row2ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€B      ã€€geneB1,geneB2â€¦       
+Row3ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€ã€€C      ã€€geneC1,geneC2    
 
 ```
 ##miRNA_total data
 The column of miRNA names, extracted from the first column of dictionary data. 
 
 ```{r,echo=TRUE,eval=FALSE}
-¡@	    miRNA
-Row1¡@¡@¡@A      
-Row2¡@¡@¡@B          
-Row3¡@¡@¡@C      
+ã€€	    miRNA
+Row1ã€€ã€€ã€€A      
+Row2ã€€ã€€ã€€B          
+Row3ã€€ã€€ã€€C      
 
 ```
 
@@ -107,7 +107,7 @@ Now, we show an example using internal data for ceRNAmiRNAfun workflow.
 ```
 
 ##Example Data Source
-To demonstrate the usage of the ceRNAmiRNAfun package, the package contains 475 paired miRNA and gene lung cancer samples. As for dictionary data, there are 137 paired miRNA and corresponding gene data in a list form, and miRNA_total data has the first column of the dictionary data of the miRNA¡¦s names.
+To demonstrate the usage of the ceRNAmiRNAfun package, the package contains 475 paired miRNA and gene lung cancer samples. As for dictionary data, there are 137 paired miRNA and corresponding gene data in a list form, and miRNA_total data has the first column of the dictionary data of the miRNAâ€™s names.
 Both of the miRNA and gene data comes from the TCGA lung adenocarcinoma dataset.
 
 ```{r}
@@ -187,4 +187,4 @@ plotp=miRhubgeneplot(dictionary=dictionary,Result_TCGA_LUSC=Result_TCGA_LUSC,mir
 The function will plot the top miRNA, for visualizing the result of the triplets. The output will be plotp a plot format with miRNA expression in x-axis and the interaction ceRNA in y-axis.
 
 
-![plotp](C:/Users/Blue/Documents/ceRNAmiRNAfun/vignettes/pics/plotp.png)
+![plotp](https://github.com/JohnMengChun/ceRNAmiRNAfun/blob/master/vignettes/pics/plotp.png)
