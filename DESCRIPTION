@@ -1,7 +1,7 @@
 Package: ceRNAmiRNAfun
 Type: Package
 Title: A package of creating an algorithm of identifying microRNA-competing endogenous RNA triplets
-Version: 0.99.4
+Version: 0.99.5
 Authors@R: c(
 	      person("Lin", "Wang", email = "judy79802002@gmail.com", role = c("cre", "aut")),
         person("Tzu-Pin", "Lu", email = "tplu@ntu.edu.tw", role = c("aut")),
