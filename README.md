@@ -76,7 +76,7 @@ Basically, there are four steps, corresponding to four R functions, to complete 
 
 ```
 
-![workflow_ceRNAmiRNAfun](C:/Users/Blue/Documents/ceRNAmiRNAfun/vignettes/pics/workflow_ceRNAmiRNAfun.png)
+![workflow_ceRNAmiRNAfun](https://github.com/JohnMengChun/ceRNAmiRNAfun/blob/master/vignettes/pics/plotp.png)
 
 
 
@@ -136,4 +136,4 @@ plotp=miRhubgeneplot(dictionary=dictionary,Result_TCGA_LUSC=Result_TCGA_LUSC,mir
 The function will plot the top miRNA, for visualizing the result of the triplets. The output will be plotp a plot format with miRNA expression in x-axis and the interaction ceRNA in y-axis.
 
 
-![plotp](C:/Users/Blue/Documents/ceRNAmiRNAfun/vignettes/pics/plotp.png)
+![plotp](https://github.com/JohnMengChun/ceRNAmiRNAfun/blob/master/vignettes/pics/plotp.png)
