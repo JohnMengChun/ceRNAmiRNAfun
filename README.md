@@ -76,7 +76,7 @@ Basically, there are four steps, corresponding to four R functions, to complete 
 
 ```
 
-![workflow_ceRNAmiRNAfun](https://github.com/JohnMengChun/ceRNAmiRNAfun/blob/master/vignettes/pics/plotp.png)
+![workflow_ceRNAmiRNAfun](https://github.com/JohnMengChun/ceRNAmiRNAfun/blob/master/vignettes/pics/workflow_ceRNAmiRNAfun.png)
 
 
 
