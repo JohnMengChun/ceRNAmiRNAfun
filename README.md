@@ -1,22 +1,5 @@
 # ceRNAmiRNAfun
----
-title: "Introduction to ceRNAmiRNAfun"
-author: "ceRNAmiRNAfun Developers"
-package: ceRNAmiRNAfun
-output: 
-  html_document
-vignette: >
-  %\VignetteIndexEntry{Introduction to ceRNAmiRNAfun}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8} 
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE,error=TRUE,warning =FALSE)
-
-```
-
-#ceRNAmiRNAfun
 
 An analysis R package to find out miRNA and ceRNA triplets.
 
